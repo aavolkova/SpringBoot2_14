@@ -22,7 +22,7 @@ public class HomeController {
     DirectorRepository directorRepository;
 
     @RequestMapping("/")
-    public String listActors(Model model){
+    public String index(Model model){
 
         // First let's create a director
         Director director = new Director();
